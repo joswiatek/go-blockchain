@@ -1,3 +1,5 @@
-A simple blockchain implementation in Golang. 
+A basic implementation of a block and blockchain.
 
-This repository is based on the tutorial [here](https://jeiwan.cc/posts/building-blockchain-in-go-part-1/). Each stage of the tutorial is on a different branch.
+A block contains a piece of string data, a timestamp, the previous block's hash, and the block's hash.
+
+A blockchain simply consists of an array of blocks.
