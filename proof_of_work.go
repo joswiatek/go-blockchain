@@ -9,7 +9,7 @@ import (
 )
 
 // The higher this number, the higher the difficulty. A block's hash must fit into 256-targetBits bits
-const targetBits = 24
+const targetBits = 16
 
 // Cap the max nonce to avoid roll overs
 var maxNonce = math.MaxInt64
